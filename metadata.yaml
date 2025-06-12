@@ -1,0 +1,6 @@
+homepage: "https://www.daisycon.com"
+documentation: "https://faq-advertiser.daisycon.com/hc/en-us/articles/7046670401820"
+versions:
+  # Latest version
+  - sha: d211319b7e9fe58d685eebba7628740cec50fa77
+    changeNotes: Initial release
