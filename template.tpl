@@ -13,7 +13,7 @@ ___INFO___
   "description": "This tag is a mandatory component in server-side tracking setups, enabling hybrid tracking functionality. It ensures accurate click data matching, even when server-side tracking encounters issues, by providing fallback capabilities when needed.",
   "categories": [
     "AFFILIATE_MARKETING",
-    "CONVERSION_TRACKING"
+    "CONVERSIONS"
   ],
   "securityGroups": [],
   "id": "cvt_temp_public_id",
@@ -169,7 +169,7 @@ let path = '/tr/';
 let requestParams = {
       ci: data.campaignId,
       ref: data.synergyReference,
-      src: 'gtm-synergy|1.0'
+      src: 'gtm-synergy|1.0.1'
     };
 
 const baseUrl = 'https://' + data.matchingDomain.toString() + path;
@@ -382,11 +382,11 @@ scenarios:
 
 ___NOTES___
 
-Last updated: 04/06/2025
+Last updated: 13/08/2025
 Maintained by: Daisycon B.V.
 
 Key changes in this version):
-- Initial release version
+- Small fix in template info
 
 Original creation: 30/04/2025
 For support, please refer to Daisycon's official documentation or contact Daisycon support.
