@@ -2,5 +2,7 @@ homepage: "https://www.daisycon.com"
 documentation: "https://faq-advertiser.daisycon.com/hc/en-us/articles/20622723791772"
 versions:
   # Latest version
+  - sha: 77c4c24823fbb1e54bed88289aafefe3fd838f9c
+    changeNotes: Fixed categoried in template info and LICENSE placeholders
   - sha: d211319b7e9fe58d685eebba7628740cec50fa77
     changeNotes: Initial release
